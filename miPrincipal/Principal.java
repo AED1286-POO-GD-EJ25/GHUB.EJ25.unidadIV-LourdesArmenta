@@ -40,6 +40,14 @@ public class Principal {
                          new Integer(34) };
                          
         MuestraConjunto.mostrar(arr);
+
+        //probar las clases Abstractas
+        
+        
+
+       
+
+
          
 
     }
