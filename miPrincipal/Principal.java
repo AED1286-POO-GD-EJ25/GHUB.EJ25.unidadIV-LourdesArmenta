@@ -3,6 +3,7 @@ import fecha.*;
 import abstractas.Circulo;
 import abstractas.Rectangulo;
 import abstractas.Triangulo;
+import abstractas.FiguraGeometrica;
 
 public class Principal {
     
@@ -54,6 +55,16 @@ public class Principal {
         System.out.println(r);
         System.out.println(t);
         
+        FiguraGeometrica arreglo2[] = {
+                                        new Circulo(23),
+                                        new Rectangulo(12,4),
+                                        new Triangulo(2,5)
+                                     };
+        double prom = FiguraGeometrica.areaPromedio(arreglo2);
+
+        System.out.println("Promedio = "+prom);
+
+
 
         
         
