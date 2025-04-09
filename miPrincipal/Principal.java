@@ -1,5 +1,8 @@
 package miPrincipal;
 import fecha.*;
+import abstractas.Circulo;
+import abstractas.Rectangulo;
+import abstractas.Triangulo;
 
 public class Principal {
     
@@ -42,6 +45,16 @@ public class Principal {
         MuestraConjunto.mostrar(arr);
 
         //probar las clases Abstractas
+
+        Circulo c = new Circulo(3.0);
+        Rectangulo r = new Rectangulo(10.5,21.11);
+        Triangulo t = new Triangulo(2,4);
+
+        System.out.println(c);
+        System.out.println(r);
+        System.out.println(t);
+        
+
         
         
 
