@@ -65,10 +65,25 @@ public class Principal {
 
         System.out.println("Promedio = "+prom);
 
-        Caja miCaja = new Caja();
+        //clases geneticas
+
+        Caja<String> miCaja = new Caja<>();
         miCaja.setContenido("Lucia");
         System.out.println(miCaja);
-        
+
+        Caja<Integer> miCaja2 = new Caja<>();
+        miCaja2.setContenido(100);
+        System.out.println(miCaja2);
+
+        Caja<Double> miCaja3 = new Caja<>();
+        miCaja3.setContenido(3.1416);
+        System.out.println(miCaja3);
+
+        Caja<Gato> miCaja4 = new Caja<>();
+        miCaja4.setContenido(new Gato());
+        System.out.println(miCaja4);
+
+
 
 
 

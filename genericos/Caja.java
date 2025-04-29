@@ -1,14 +1,14 @@
 package genericos;
-public class Caja{
+public class Caja <T>{
     //Atributos
-    private String contenido;
+    private T contenido;
 
     //propiedades
-    public String getContindo(){
+    public T getConteindo(){
         return contenido;
     }
 
-    public void setContenido(String contenido){
+    public void setContenido(T contenido){
         this.contenido = contenido;
     }
 
