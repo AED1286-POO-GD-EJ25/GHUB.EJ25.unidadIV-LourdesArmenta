@@ -4,6 +4,7 @@ import abstractas.Circulo;
 import abstractas.Rectangulo;
 import abstractas.Triangulo;
 import abstractas.FiguraGeometrica;
+import genericos.Caja;
 
 public class Principal {
     
@@ -63,6 +64,11 @@ public class Principal {
         double prom = FiguraGeometrica.areaPromedio(arreglo2);
 
         System.out.println("Promedio = "+prom);
+
+        Caja miCaja = new Caja();
+        miCaja.setContenido("Lucia");
+        System.out.println(miCaja);
+        
 
 
 

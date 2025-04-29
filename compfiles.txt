@@ -14,3 +14,4 @@
 ./abstractas/FiguraGeometrica.java
 ./fecha/FechaDetallada.java
 ./fecha/Fecha.java
+./genericos/Caja.java
