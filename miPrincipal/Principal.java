@@ -5,6 +5,7 @@ import abstractas.Rectangulo;
 import abstractas.Triangulo;
 import abstractas.FiguraGeometrica;
 import genericos.Caja;
+import genericos.Utilidades;
 
 public class Principal {
     
@@ -82,6 +83,19 @@ public class Principal {
         Caja<Gato> miCaja4 = new Caja<>();
         miCaja4.setContenido(new Gato());
         System.out.println(miCaja4);
+
+        //metodos estaticos
+
+        Integer arrayEnteros[] = {10,25,50,89,105,2};
+
+        String arrayString[] = {"Lupita","Juan","Pedro"};
+
+        Double []arrayDoble ={4.5,8.9,90.999,1.5};
+
+        Utilidades.imprimirArray(arrayEnteros);
+        Utilidades.imprimirArray(arrayString);
+        Utilidades.imprimirArray(arrayDoble);
+
 
 
 
